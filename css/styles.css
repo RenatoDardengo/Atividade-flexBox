@@ -3,10 +3,12 @@
     padding: 0;
     list-style: none;
     max-width: 697px;
+    
 }
-#conteudo{
-    align-items: center;
+body{
+    border: 1px solid black;
 }
+
 
 
 #header-icons{
@@ -29,9 +31,34 @@
 
 #house-main{
     display: flex;
-    justify-content: center;
+    justify-items:center;
     margin-top: 15px;
+    margin-left: 40px;
 }
+
+#ellipseLeft{
+    position: absolute;
+    margin-left: -600px;
+    padding-top: 100px;
+}
+
+#arrowLeft{
+    position: absolute;
+    margin-left: -590px;
+    padding-top: 110px;
+}
+
+#ellipseRight{
+position: absolute;
+margin-left: -50px;
+padding-top: 100px;
+}
+#arrowRight{
+    position: absolute;
+    margin-left: -35px;
+    padding-top: 110px;
+    }
+
 
 #house-sales{
     display: flex;
