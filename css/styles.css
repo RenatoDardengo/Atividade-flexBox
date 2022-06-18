@@ -70,7 +70,8 @@
 }
 
 #style{
-    display: flex;
+    /* display: flex; */
+    
 }
 
 h2{
@@ -89,12 +90,30 @@ justify-items:center;
 color: #888888;
 }
 
-#img-Style{
-    justify-content: center;
-    align-items: center;
+.img-Style{
+    /* justify-content: center;
+    align-items: center; */
     padding-left: 50px;
     padding-top: 10px;
+    display: flex;
+
     
+}
+.teste2{
+    position: absolute;
+   padding-left: 250px;
+   padding-top: 30px;
+}
+#footer{
+    background-color:black;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Medias{
+    padding-top: 10px;
 }
 
 
